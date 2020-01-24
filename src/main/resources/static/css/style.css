@@ -371,8 +371,8 @@ header .logo {
 
 /* --- Header slider --- */
 #header-wrapper.header-slider {
-	background: #444 url(../img/bg/bg-2.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
+	background: #444 url(../img/universal.jpg) no-repeat center center fixed;
+	background-size: cove;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
@@ -445,7 +445,7 @@ header .logo {
 
 
 section.section {
-	padding: 100px 0 80px;
+	padding: 100px 0 150px;
 }
 section.section h4 {
 	text-align: center;
@@ -472,11 +472,12 @@ section.inner {
 
 section.spacer {
 	padding:90px 0 70px;
-	color:#fcfcfc;
+	padding-bottom:500px;
 }
 
 .spacer.green,.section.green {
 	background:#1bac91;
+	padding-bottom:200px
 }
 
 .spacer.green,.section.green h4 {
@@ -486,8 +487,12 @@ section.spacer {
 .spacer.yellow,.section.yellow  {
 	background:#ffe873;
 }
+.spacer.yellow,.section.blue  {
+	background:#08d4e8;
+}
 .spacer.orange,.section.orange {
 	background:#f36f36;
+	
 }
 
 section.spacer.bg2 {
