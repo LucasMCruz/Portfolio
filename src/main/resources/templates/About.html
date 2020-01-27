@@ -2,59 +2,18 @@
 <html lang="en"
 	xmlns:th="http://www.thymeleaf.org"
 	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-	>
+	layout:decorate="Padrao">
 
-<head>
-	<meta charset="utf-8">
-	<title>Maxim - Modern One Page Bootstrap Template</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<link href="../css/bootstrap-responsive.css" rel="stylesheet">
-	<link href="../css/style.css" rel="stylesheet">
-	<link href="../color/default.css" rel="stylesheet">
-	<link rel="shortcut icon" href="../img/favicon.ico">
-	<link href="../fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet">
-	<!-- =======================================================
-    Theme Name: Maxim
-    Theme URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-	======================================================= -->
-</head>
-
-<body>
+<section layout:fragment="conteudo">
 <!-- navbar -->
-	<div class="navbar-wrapper">
-		<div class="navbar navbar-inverse navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<!-- Responsive navbar -->
-					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</a>
-					<h1 class="brand"><a href="/port">Home</a></h1>
-					<!-- navigation -->
-					<nav class="pull-right nav-collapse collapse">
-						<ul id="menu-main" class="nav">
-							<li><a title="about" class="btn btn-link gft-link-card p-0" href="/port/about" >About</a>
-							<li><a title="services"  href="/port/services">Education</a></li>
-							<li><a title="works"  href="/port/work">Skill</a></li>
-							<li><a title="blog"  href="/port/blog">LifeStyle</a></li>
-							<li><a title="contact"  href="/port/contato">Contact</a></li>
-							
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</div>
+
 	<section id="about" class="section">
 		<div class="container">
 			<h4>About me</h4>
 			<div class="row">
 				<div class="span4 offset1">
 					<div>
-						<h2>Graduando Jogos digitais. Contato com projeto graÃ§as ao meu estagio na gft e o treinamento.blablalbalbalbalblalbalblablabla <strong></strong></h2>
+						<h2>Graduando Jogos digitais. Voltado ao aprendizado e em conhecimentos novos. Adorador de esportes e programação<strong></strong></h2>
 						<p>
 							
 						</p>
@@ -104,5 +63,5 @@
 	<script src="js/custom.js"></script>
 	<script src="contactform/contactform.js"></script>
 
-</body>
+</section>
 </html>

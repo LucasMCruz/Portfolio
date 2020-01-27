@@ -2,28 +2,9 @@
 <html lang="en"
 	xmlns:th="http://www.thymeleaf.org"
 	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-	>
+	layout:decorate="Padrao">
 
-<head>
-	<meta charset="utf-8">
-	<title>Maxim - Modern One Page Bootstrap Template</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<link href="../css/bootstrap-responsive.css" rel="stylesheet">
-	<link href="../css/style.css" rel="stylesheet">
-	<link href="../color/default.css" rel="stylesheet">
-	<link rel="shortcut icon" href="../img/favicon.ico">
-	<link href="../fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet">
-	<!-- =======================================================
-    Theme Name: Maxim
-    Theme URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-	======================================================= -->
-</head>
-
-<body>
+<section layout:fragment="conteudo">
 	<!-- navbar -->
 	<div class="navbar-wrapper">
 		<div class="navbar navbar-inverse navbar-fixed-top">
@@ -32,7 +13,7 @@
 					<!-- Responsive navbar -->
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</a>
-					<h3 class="brand"><a href="/port">PortfÃ³lio</a></h3>
+					<h3 class="brand"><a href="/port">Portfólio</a></h3>
 					<!-- navigation -->
 					<nav class="pull-right nav-collapse collapse">
 						
@@ -50,5 +31,5 @@
 		</div>
 	</div>
 	<!-- Header area -->
-</body>
+</section>
 </html>
